@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-inline: auto;
+    width: 40%;
+}
+
+p, ol {
+  font-family: 'Lexend';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #333651;  
+  padding-block: 1em;
+}
+
+h1 {
+    font-family: 'Grandstander';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #333651;
+    /* 1em = 36px */
+    padding-top: 1em;
+    padding-bottom: .25em;
+    
+}
+
+h2 {
+    font-family: "Lexend";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #333651;
+    padding-top: 1em;
+}
+
+h3 {
+    font-family: "Lexend";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #333651;
+    padding-top: 1em;
+}
+
+h4 {
+    font-family: "Lexend";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #333651;
+    padding-top: 1em;
+}
+
+a {
+    font-family: "Lexend";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #3d96b7;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #2A6980;
+}
+
+.article-date {
+    font-family: 'Lexend';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #3d96b7;  
+  }
+
+  ol {
+    padding-left: 20px;
+  }
+
+  #orange-cat {
+    float: right;
+  }
+
+  #newsletter-subscribe {
+    background-color: #3d96b7;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    
+  }
+
+  #newsletter-subscribe form {
+    width:fit-content;
+    margin-inline: auto;
+  }
+
+  #newsletter-subscribe h2 {
+    color: white;
+    text-align: center;
+    padding-block: 20px;
+  }
+
+ #newsletter-subscribe label {
+    font-family: 'Lexend';
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+ 
+ }
+
+ #newsletter-subscribe input {
+    width: 350px;
+    border-radius: 5px;
+    height: 50px;
+    border:0px;
+    font-family: 'Lexend';
+    padding-inline: 10px;
+    font-size: 18px;
+    color: #333651;
+    
+ }
+
+.button-primary {
+    font-family: 'Lexend';
+    font-weight: 700;
+    background-color: #333651;
+    color: white;
+    border: 0px;
+    font-size: 18px;
+    padding: 14px 20px;
+    border-radius: 5px;
+ }
+
+ .button-primary:hover {
+    outline: 3px solid white;
+ }
