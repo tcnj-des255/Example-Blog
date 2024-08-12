@@ -175,6 +175,51 @@ a:hover {
  }
 
 
+/* main navigation */
+ 
+nav menu li {
+    list-style: none;
+}
 
- 
- 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-menu {
+    
+    display: flex;
+    gap: 40px;
+    /* justify-content: flex-start; is the default, so I don't specify it. */
+}
+
+#main-menu .dropdown {
+    display: none;
+    position: absolute;
+}
+
+#main-menu .dropdown-trigger:hover .dropdown {
+    display: block;
+}
+
+nav {
+    background-color: #3d96b7;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Lexend';
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+nav a:hover, nav button:hover {
+    color: #333651;
+}
