@@ -90,6 +90,8 @@ a:hover {
 
   #orange-cat {
     float: right;
+    /* Add 10px of whitespace on all sides */
+    margin: 10px;
   }
 
   #newsletter-subscribe {
@@ -236,4 +238,38 @@ nav button {
 
 nav a:hover, nav button:hover {
     color: #333651;
+}
+
+/* tablet size breakpoint */
+
+@media (max-width: 1024px) {
+    main {
+        width: 80%;
+    }
+
+    nav {
+        padding: 30px 10%; 
+    }
+}
+
+/* mobile phone size breakpoint */
+
+@media (max-width: 393px) {
+
+ #orange-cat {
+    max-width: 100%;
+ }
+
+ #related-articles-container {
+    display: block;
+ }
+
+ #related-articles-container article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ #newsletter-subscribe input {
+width: 90%;
+ }
+
 }
