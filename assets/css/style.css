@@ -187,6 +187,8 @@ nav {
     /* the first value is top/bottom, the second value is left/right */
     padding: 30px 30%; 
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #3d96b7;
     
@@ -240,9 +242,48 @@ nav a:hover, nav button:hover {
     color: #333651;
 }
 
+#mobile-menu-button {
+    display: none;
+}
+
 /* tablet size breakpoint */
 
 @media (max-width: 1024px) {
+
+    #mobile-menu-button {
+        display: block;
+    }
+
+  #main-menu {
+    /* display: none; */
+    padding-top: 20px;
+    width: 100%;
+    flex-direction: column;  
+    gap: 20px;  
+   
+  }
+
+  #main-menu li {
+    border-top: 1px solid #333651;
+    padding-top: 20px;
+  }
+
+ #main-menu .dropdown {
+    display: block;
+    position: relative;
+    margin-top: 10px;
+  
+    
+  }
+
+  #main-menu .dropdown li {
+    border-top: 1px solid #fff;
+  }
+
+  #main-menu .dropdown li:first-child {
+    border-top: 0px;
+  }
+
     main {
         width: 80%;
     }
@@ -250,6 +291,10 @@ nav a:hover, nav button:hover {
     nav {
         padding: 30px 10%; 
     }
+
+  
+
+
 }
 
 /* mobile phone size breakpoint */
